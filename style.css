@@ -1,0 +1,249 @@
+
+
+body{
+    margin: 0;
+    padding: 0;
+    transition: 0.5s;
+    overflow:scroll;
+    font-family: 'Poppins', sans-serif;
+    display:flex;
+    align-items: center;
+}
+
+.background{
+    position:absolute;
+    right:0;
+    bottom: 0;
+    z-index: -1;
+    filter:brightness(65%);
+}
+
+@media (min-aspect-ratio:16/9){
+    .background{
+        width:100%;
+        height:auto;
+    }
+}
+
+@media (max-aspect-ratio:16/9){
+    .background{
+        width:auto;
+        height:100%;
+    }
+}
+.content{
+    width:1200px;
+    height:100vh;
+    margin:auto;
+}
+
+.content h2{
+    color:#fff;
+    padding-top:100px;
+    font-weight:400;
+}
+
+.content h1{
+    font-size:80px;
+    color:#fff;
+    margin-top:20x;
+    line-height:75px;
+}
+
+.content p{
+    color:#fff;
+    font-size: 16px;
+    margin-top:30px;
+    line-height:30px;
+    letter-spacing:1px;
+}
+
+.carousel slide{
+    height:120px;
+}
+
+#truck{
+    height: 10px;
+    width:100%;
+}
+
+@media only screen and (max-width:305px){
+
+    .container{
+        margin-inline: 1rem;
+    }
+
+    .content{
+        width: 50%;
+        font-size: 2rem;
+        flex-direction:column;
+    }
+
+
+
+}
+
+.services{
+    background-color: #222;
+}
+
+.info h3{
+    color:white;
+    align-items: center;
+}
+
+.info p{
+    color:white;
+}
+.outlne{
+   display:flex;
+   position:relative;
+   padding:60px 0;
+   gap:60px;
+   align-items:center;
+   position:relative;
+   background-image: url(./cargo.jpg);
+}
+
+.services{
+    width:280px;
+    display:flex;
+    position:relative;
+    align-items:center;
+    flex-wrap:wrap;
+    padding:30px 0;
+    gap:30px;
+}
+
+.services .box{
+    position:relative;
+    width:290px;
+    height:630px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.services .box .content {
+    align-items: center;
+    flex-direction:column;
+    position:relative;
+    text-align:center;
+    gap:10px;
+    padding:0 10px;
+    width:100%;
+    height:100%;
+    overflow: hidden;
+    transition: 1s easy-in-out;
+
+}
+
+.services .box .content .icon{
+    color:#fff;
+    width:50px;
+    height:50px;
+    box-shadow: 0 0 0 4px #2a2929, 0 0 0 6px;
+    align-items:center;
+    display:flex;
+    justify-content: center;
+    font-size:2.5em;
+    
+    
+    
+}
+
+.services .box:hover .content .icon {
+    background:#fff;
+    color:#88b0e8 ;
+    box-shadow:0 0 0 3px #88b0e8, 0 0 0 650px;
+}
+
+
+
+/* Add this CSS to your existing style.css or create a new one */
+#tracking-result {
+    margin-top: 2rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-top: 1rem;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 0.5rem;
+    text-align: left;
+}
+
+th {
+    background-color: #0077b6;
+    color: white;
+}
+
+tr {
+    background-color: #fff;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+/* Responsive design for tables */
+@media (max-width: 768px) {
+    table {
+        font-size: 0.9rem;
+    }
+    
+    th, td {
+        padding: 0.3rem;
+    }
+}
+
+#tracking-form{
+    margin:0 auto;
+    text-align:center;
+    color:#fff;
+}
+
+
+button {
+	width: 100px;
+	padding: 13px;
+	margin: 10px 0 10px 0;
+	background: #002365;
+	border: 0;
+	color: #ffffff;
+	font-size: 20px;
+	text-transform: uppercase;
+	cursor: pointer;
+    border-radius:5px;
+}
+
+label{
+
+    font-size: 50px;
+}
+
+#tracking-code{
+    width:40%;
+    height:20px;
+    color:#000;
+}
+
+
+
+  #track{
+    text-align: center;
+    color:#fff;
+  }
+
+  #tracke{
+    text-align: center;
+    color:#fff;
+  }
